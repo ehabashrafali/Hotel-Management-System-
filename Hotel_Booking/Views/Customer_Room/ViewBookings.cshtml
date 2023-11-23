@@ -1,0 +1,79 @@
+﻿@model IEnumerable<Hotel_Booking.Models.Customer_Room>
+
+@{
+    ViewData["Title"] = "ViewBookings";
+}
+<style>
+    body {
+        background-image: none !important;
+    }
+
+    .custom-button {
+        width: 200px;
+        font-weight:600;
+    }
+</style>
+
+<br />
+<h3>Your Bookings</h3>
+<br />
+@if ((bool)ViewData["HasBookings"])
+{
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-body">
+                        <h5>Customer: @item.AppUser.FullName</h5>
+                        <p><b>Hotel Branch:</b> @item.HotelBranch.BranchLocation</p>
+                        <p><b>Room Price:</b> @item.Room.PricePerNight</p>
+                        <p><b>Check-In Date:</b> @item.CheckIn</p>
+                        <p><b>Check-Out Date:</b> @item.CheckOut</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a asp-action="Edit" asp-route-roomId="@item.Room.ID" asp-route-hotelId="@item.HotelBranch.ID" asp-route-customerId="@item.CustomerID" class="btn btn-sm btn-outline-secondary">Edit</a> &nbsp;
+                                <a asp-action="DeleteBooking" asp-route-roomId="@item.Room.ID" asp-route-hotelId="@item.HotelBranch.ID" asp-route-customerId="@item.CustomerID" class="btn btn-sm btn-outline-danger">Delete</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+        <div>
+            @{
+                var hasPayments = ViewData["PaymentsCount"] != null && Convert.ToBoolean(ViewData["PaymentsCount"]);
+                var discount = hasPayments ? 0.95 : 1;
+            }
+            @if (hasPayments)
+            {
+                <h3> The Total Price Will be after discount : @(Model.Sum(x => Convert.ToInt32(x.Room.PricePerNight) * discount)) USD </h3>
+            }
+            else
+            {
+                <h3> The Total Price Will be: @(Model.Sum(x => Convert.ToInt32(x.Room.PricePerNight))) USD </h3>
+            }
+        </div>
+    </div>
+    <br />
+    <div class="container">
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-md-12 text-center">
+                <form asp-action="Confirm" method="post">
+                    <input type="hidden" name="paymentDate" value="@DateTime.Now" />
+                    <input type="hidden" name="paymentAmount" value="@Model.Sum(x => Convert.ToInt32(x.Room.PricePerNight) * discount)" />
+                    <input type="hidden" name="userId" value="@ViewBag.UserId" />
+                    <button id="btnConfirm" type="submit" class="btn btn-info" @(hasPayments ? "disabled" : "")>Confirm payment</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+}
+else
+{
+    <h3>There are no bookings</h3>
+
+}
+
+

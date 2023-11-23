@@ -1,0 +1,70 @@
+﻿@model IEnumerable<Hotel_Booking.Models.Room>
+
+<style>
+    body {
+        background-image: none !important;
+    }
+</style>
+
+<h3>All Rooms</h3>
+<br />
+<p>
+    <a asp-action="Create" asp-controller="Room" class="btn btn-success">Add New Room</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.RoomNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Type)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Available)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.NumberOfBooking)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PricePerNight)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HotelBranch)
+            </th>
+            <th></th>
+            <th></th>
+
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.RoomNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Type)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Available)
+            </td>
+         
+            <td>
+                @Html.DisplayFor(modelItem => item.NumberOfBooking)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PricePerNight)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HotelBranch.BranchLocation)
+            </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.ID" class="btn btn-success">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@item.ID" class="btn btn-danger">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

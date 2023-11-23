@@ -1,0 +1,54 @@
+﻿@model Hotel_Booking.Models.Customer_Room
+
+<style>
+    body {
+        background-image: none !important;
+    }
+</style>
+
+<h1>Edit</h1>
+
+<h4>Customer_Room</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="CustomerID" />
+            <input type="hidden" asp-for="HotelBranchId" />
+            <input type="hidden" asp-for="RoomId" />
+            <div class="form-group">
+                <label asp-for="CheckIn" class="control-label"></label>
+                <input asp-for="CheckIn" id="checkIn" class="form-control" />
+                <span asp-validation-for="CheckIn" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <label asp-for="CheckOut" class="control-label"></label>
+                <input asp-for="CheckOut" id="checkOut" class="form-control" />
+                <span asp-validation-for="CheckOut" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<br />
+<div>
+    <a asp-action="ViewBookings" asp-route-userId="@ViewBag.Id" class="btn btn-danger">Go Back</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        // Get today's date
+        var today = new Date().toISOString().split('T')[0];
+
+        // Set the min attribute of the date input
+        document.getElementById("checkIn").setAttribute('min', today);
+    </script>
+}

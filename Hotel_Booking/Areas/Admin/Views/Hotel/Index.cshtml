@@ -1,0 +1,58 @@
+﻿@model IEnumerable<Hotel_Booking.Models.HotelBranch>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<style>
+    body {
+        background-image: none !important;
+    }
+</style>
+
+<h3>All Hotels</h3>
+<br />
+
+<p>
+    <a asp-action="Create" asp-controller="Hotel" asp-area="Admin" class="btn btn-success">Add New Hotel</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BranchLocation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PhoneNo)
+            </th>
+            <th> No. Of Rooms</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BranchLocation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhoneNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rooms.Count)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ID" class="btn btn-success">Edit</a> 
+                <a asp-action="Delete" asp-route-id="@item.ID" class="btn btn-danger">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

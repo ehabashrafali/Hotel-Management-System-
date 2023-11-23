@@ -1,0 +1,70 @@
+﻿
+@model Hotel_Booking.Models.Room
+
+@{
+    ViewData["Title"] = "Book Room";
+}
+<style>
+    body {
+        background-image: none !important;
+    }
+</style>
+<div class="row">
+    <div class="col-md-6 offset-md-3">
+        <h2>Book Room</h2>
+
+        <form asp-action="Book" asp-route-roomId="@Model.ID" asp-route-hotelId="@Model.HotelBranchId" asp-route-userId="@ViewBag.UserId" method="post" class="form">
+            <input type="hidden" name="roomId" value="@Model.ID" />
+            <div class="form-group">
+                <label asp-for="RoomNo">Room Number:</label>
+                <input asp-for="RoomNo" class="form-control" readonly />
+            </div>
+            <br />
+            <div class="form-group">
+                <label asp-for="Type">Room Type:</label>
+                <input asp-for="Type" class="form-control" readonly />
+            </div>
+            <br />
+            <div class="form-group">
+                <label asp-for="PricePerNight">Price Per Night:</label>
+                <input asp-for="PricePerNight" class="form-control" readonly />
+            </div>
+            <br />
+            <div class="form-group">
+                <label>Branch Location:</label>
+                <input type="text" value="@Model.HotelBranch.BranchLocation" class="form-control" readonly />
+            </div>
+            <br />
+            <div class="form-group">
+                <label for="checkIn">Check-In Date:</label>
+                <input type="date" id="checkIn" name="checkIn" class="form-control" required>
+            </div>
+            <br />
+            <div class="form-group">
+                <label for="checkOut">Check-Out Date:</label>
+                <input type="date" id="checkOut" name="checkOut" class="form-control" required>
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Book Room" class="btn btn-primary" />
+            </div>
+        </form>
+        <br />
+        <div>
+            <a asp-action="AllhotelRooms" asp-controller="Room" asp-route-id="@ViewBag.hotelId" class="btn btn-secondary">Back to Rooms</a>
+        </div>
+    </div>
+    <br />
+   
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+<script>
+    // Get today's date
+    var today = new Date().toISOString().split('T')[0];
+
+    // Set the min attribute of the date input
+    document.getElementById("checkIn").setAttribute('min', today);
+</script>

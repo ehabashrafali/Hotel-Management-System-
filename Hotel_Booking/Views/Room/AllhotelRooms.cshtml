@@ -1,0 +1,56 @@
+﻿@model IEnumerable<Hotel_Booking.Models.Room>
+
+<style>
+    body {
+        background-image: none !important;
+    }
+</style>
+
+<h3> @ViewBag.BranchName Hotel Rooms </h3>
+@* <br />
+<div>
+    <a asp-action="ViewBookings" asp-controller="Customer_Room" asp-route-userId="@ViewBag.Id" class="btn btn-success">View Your Bookings & Confirm</a>
+</div> *@
+<br />
+<div>
+    <a asp-action="Index" asp-controller="Hotel"  class="btn btn-primary">Back To Hotels</a>
+</div>
+<br />
+<br />
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <div class="card-body">
+                    <p class="card-text">
+                        Room Number: @Html.DisplayFor(modelItem => item.RoomNo)
+                    </p>
+                    <p class="card-text">
+                        Type: @Html.DisplayFor(modelItem => item.Type)
+                    </p>
+                    <p class="card-text">
+                        Available: @Html.DisplayFor(modelItem => item.Available)
+                    </p>
+                    <p class="card-text">
+                        Number of Booking: @Html.DisplayFor(modelItem => item.NumberOfBooking)
+                    </p>
+                    <p class="card-text">
+                        Price Per Night: @Html.DisplayFor(modelItem => item.PricePerNight)
+                    </p>
+                    <p class="card-text">
+                        Branch Location: @Html.DisplayFor(modelItem => item.HotelBranch.BranchLocation)
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            @{
+                                var isDisabled = (item.Type == RoomType.Single && item.NumberOfBooking == 1) || (item.Type == RoomType.Double && item.NumberOfBooking == 2);
+                            }
+                            <a asp-action="Book" asp-controller="Customer_Room" asp-route-id="@item.ID" asp-route-hotelId="@item.HotelBranchId" asp-route-userId="@ViewBag.Id" class="btn btn-sm btn-outline-secondary @((isDisabled) ? "disabled" : "")">Book The Room</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

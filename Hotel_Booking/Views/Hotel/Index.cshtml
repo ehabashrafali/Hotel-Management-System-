@@ -1,0 +1,55 @@
+﻿@model IEnumerable<Hotel_Booking.Models.HotelBranch>
+
+<style>
+    body {
+        background-image: none !important;
+    }
+</style>
+
+<h1>All Hotels</h1>
+<br />
+<div>
+    <a asp-action="ViewBookings" asp-controller="Customer_Room" asp-route-userId="@ViewBag.Id" class="btn btn-success">View Your Bookings & Confirm</a>
+</div>
+<br />
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BranchLocation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PhoneNo)
+            </th>
+            <th>
+                Number Of Rooms
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BranchLocation)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PhoneNo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Rooms.Count)
+                </td>
+                <td>
+                    <a asp-action="AllhotelRooms" asp-controller="Room" asp-route-id="@item.ID" asp-route-Name="@item.Name" class="btn btn-success">Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

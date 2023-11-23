@@ -1,0 +1,76 @@
+﻿@model Hotel_Booking.Areas.Admin.ViewModel.HomePageViewModel
+
+@{
+    ViewData["Title"] = "Admin Dashboard";
+    Layout = null;
+}
+
+<div class="container">
+    <br />
+    <h2>Welcome, @ViewData["FullName"]</h2>
+
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <div class="card">
+                <a href="@Url.Action("Index", "Hotel", new { area = "Admin" })">
+                    <div class="card-header bg-primary text-white">
+                        Hotels
+                    </div>
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">@Model.HotelsNumber</h5>
+                    <p class="card-text">Total number of hotels</p>
+                </div>
+            </div>
+            <br />
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <a href="@Url.Action("Index", "Room", new { area = "Admin" })">
+                    <div class="card-header bg-primary text-white">
+                        All Rooms
+                    </div>
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">@Model.RoomsNumber</h5>
+                    <p class="card-text">Total number of Rooms</p>
+                </div>
+            </div>
+            <br />
+        </div>
+         <div class="col-md-6">
+            <div class="card">
+                <div class="card-header bg-success text-white">
+                    All Customers
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">@Model.CustomersCount</h5>
+                    <p class="card-text">Total number of Customers</p>
+                </div>
+            </div>
+            <br />
+        </div>
+        <br />
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header bg-success text-white">
+                    All  Available Rooms
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">@Model.AvailableRooms</h5>
+                    <p class="card-text">Total number of Available Rooms</p>
+                </div>
+            </div>
+        </div>
+        <br />
+    </div>
+</div>
+
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+

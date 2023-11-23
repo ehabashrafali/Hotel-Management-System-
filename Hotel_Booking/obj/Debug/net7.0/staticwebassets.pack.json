@@ -1,0 +1,293 @@
+{
+  "Files": [
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Hotel_Booking.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Hotel_Booking.bundle.scp.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\ERROR404\\Error.html",
+      "PackagePath": "staticwebassets\\ERROR404\\Error.html"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\ERROR404\\style.css",
+      "PackagePath": "staticwebassets\\ERROR404\\style.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\Rectangle 1107.png",
+      "PackagePath": "staticwebassets\\Rectangle 1107.png"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\images\\Rectangle 1107.png",
+      "PackagePath": "staticwebassets\\images\\Rectangle 1107.png"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\images\\photo-1445019980597-93fa8acb246c.avif",
+      "PackagePath": "staticwebassets\\images\\photo-1445019980597-93fa8acb246c.avif"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\images\\valeriia-bugaiova-_pPHgeHz1uk-unsplash.jpg",
+      "PackagePath": "staticwebassets\\images\\valeriia-bugaiova-_pPHgeHz1uk-unsplash.jpg"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\ITI-Win\\Projects\\Hotel_Booking\\Hotel_Booking\\wwwroot\\valeriia-bugaiova-_pPHgeHz1uk-unsplash.jpg",
+      "PackagePath": "staticwebassets\\valeriia-bugaiova-_pPHgeHz1uk-unsplash.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Hotel_Booking.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Hotel_Booking.props",
+      "PackagePath": "build\\Hotel_Booking.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Hotel_Booking.props",
+      "PackagePath": "buildMultiTargeting\\Hotel_Booking.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Hotel_Booking.props",
+      "PackagePath": "buildTransitive\\Hotel_Booking.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
